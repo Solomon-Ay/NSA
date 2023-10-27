@@ -288,12 +288,13 @@ nav #bar {
           text-align: justify;
 }
 
-#over_info2 p {
+#over_info2 ul {
          
           padding-left: 40px;
           color: #0b0b0c;
           line-height: 2;
           letter-spacing: .5px;
+          list-style: none;
 }
 
 #intro {
