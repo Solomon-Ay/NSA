@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="icon" href="asset/images/favicon.png">
+          <title>NSA LAB</title>
+          <link rel="stylesheet" href="style.css">
+          <script src="https://kit.fontawesome.com/2daa012dc1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+          <div id="container" onclick="toggleDown()">
+                    <div class="responsive_bar right_bar">
+                              <h1 onclick="toggleDown()"><i class="fa-solid fa-xmark"></i></h1>
+                    </div>
+                    <div class="responsive_bar left_bar">
+                             <ul>
+                              <li> <a href="#">Home</a></li>
+                              <li><a href="#">Overview</a></li>
+                              <li> <a href="#">Work</a></li>
+                              <li><a href="#">People</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                             </ul>
+                    </div>
+          </div>
+
+          <div class="scroll_up">
+                    <button onclick="scrollToTop()" on><i class="fa-solid fa-arrow-up-a-z"></i></button>
+
+          </div>
+          <nav id="nav">
+                    <h2>NSA LAB</h2>
+                   <div>
+                    <a href="#">Home</a>
+                    <a href="#">Overview</a>
+                    <a href="#">Work</a>
+                    <a href="#">People</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#" id="bar" onclick="response()">|||</a>
+                   </div>
+          </nav>
+          <section class="home">
+                    <div id="nsa_nam"> 
+                              <h2>Exploring the World of Bioinformatics and Biotechnology</h2>
+                              <ul>
+                                        <li id="hour"></li>
+                                        <li id="colon"></li>
+                                        <li id="minute"></li>
+                                        <li id="colon_two"></li>
+                                        <li id="second"></li>
+                                        <!-- <ul id="ampm"></ul> -->
+                              </ul>
+                    </div>
+          </section>
+          <section id="overview">
+                    <div id="over_info"> 
+                              <img id="nsa_pict"src="/asset/images/yahaya.jpg" alt="NSA_PIC">
+                              <div>
+                                        <h4>Imade Nsa, Ph.D.</h4>
+                                        <h5>Senior Lecturer</h5>
+                                        <a href="#">Department of Microbiology University of Lagos,</a>
+                                        <a href="#">SEA PHAGES</a>
+                              </div>
+                    </div>
+                    <div id="over_info2">
+                              <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum sunt consectetur. Dicta officia, ad quod impedit autem cum, doloremque similique, velit hic aut quia. Incidunt expedita odit sit. Eum."</p>
+                    </div>
+          </section>
+          <section id="intro">
+                   <div id="intro_one">
+                    <h2>Overview</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam delectus ad eos id soluta mollitia voluptates at dicta laboriosam? Quae quasi necessitatibus, qui, earum sit doloribus accusamus omnis eos a aliquam dolorem exercitationem pariatur debitis impedit dolor error reprehenderit aliquid accusantium cupiditate magnam. Officia, voluptatibus harum. Beatae at soluta impedit rem corporis veniam esse ducimus cupiditate aspernatur, ullam a non adipisci obcaecati laboriosam laborum rerum eos quod exercitationem reiciendis distinctio dolore suscipit. Quis dolorem odit suscipit eius ea corrupti est cum commodi atque recusandae. Inventore consequatur veniam, consectetur adipisci quisquam a eius laborum ad iste illo reprehenderit omnis doloremque! Neque quod voluptates nostrum! Enim tempora quam, ullam alias eius iure earum! Ipsam, in nulla. Similique corrupti dolorum animi ratione at quae eius itaque culpa suscipit deserunt, necessitatibus, atque iste distinctio veritatis nobis. Nemo nostrum ratione incidunt aliquid a vero quod rerum placeat eligendi magni, aperiam neque, quae atque saepe sequi.</p>
+                   </div>
+          </section>
+          <section id="public">
+                    <div class="box" data-animation="fade-in">
+                              <div class="journal">
+                                        <h4>JULY 1, 2023</h4>
+                                        <a href="#">J FORL</a>
+                              </div>
+                              <div class="title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum distinctio consectetur, in veniam quo eum reiciendis dicta quos suscipit voluptatem?</h4>
+                              </div>
+                              <div class="name">
+                                        <h5>Imade N, Ade G,</h5>
+                                        <div class="citation_score">
+                                                  <div class="score">
+                                                            <h3>1</h3>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="box" data-animation="fade-in">
+                              <div class="journal">
+                                        <h4>JULY 1, 2023</h4>
+                                        <a href="#">J FORL</a>
+                              </div>
+                              <div class="title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum distinctio consectetur, in veniam quo eum reiciendis dicta quos suscipit voluptatem?</h4>
+                              </div>
+                              <div class="name">
+                                        <h5>Imade N, Ade G,</h5>
+                                        <div class="citation_score">
+                                                  <div class="score">
+                                                            <h3>2</h3>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="box" data-animation="slide-left">
+                              <div class="journal">
+                                        <h4>JULY 1, 2023</h4>
+                                        <a href="#">J FORL</a>
+                              </div>
+                              <div class="title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum distinctio consectetur, in veniam quo eum reiciendis dicta quos suscipit voluptatem?</h4>
+                              </div>
+                              <div class="name">
+                                        <h5>Imade N, Ade G,</h5>
+                                        <div class="citation_score">
+                                                  <div class="score">
+                                                            <h3>3</h3>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="box" data-animation="slide-left">
+                              <div class="journal">
+                                        <h4>JULY 1, 2023</h4>
+                                        <a href="#">J FORL</a>
+                              </div>
+                              <div class="title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum distinctio consectetur, in veniam quo eum reiciendis dicta quos suscipit voluptatem?</h4>
+                              </div>
+                              <div class="name">
+                                        <h5>Imade N, Ade G,</h5>
+                                        <div class="citation_score">
+                                                  <div class="score">
+                                                            <h3>4</h3>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="box" data-animation="slide-left">
+                              <div class="journal">
+                                        <h4>JULY 1, 2023</h4>
+                                        <a href="#">J FORL</a>
+                              </div>
+                              <div class="title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum distinctio consectetur, in veniam quo eum reiciendis dicta quos suscipit voluptatem?</h4>
+                              </div>
+                              <div class="name">
+                                        <h5>Imade N, Ade G,</h5>
+                                        <div class="citation_score">
+                                                  <div class="score">
+                                                            <h3>5</h3>
+                                                  </div>
+                                        </div>
+
+                              </div>
+                    </div>
+                    <div class="box" data-animation="slide-left">
+                              <div class="journal">
+                                        <h4>JULY 1, 2023</h4>
+                                        <a href="#">J FORL</a>
+                              </div>
+                              <div class="title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum distinctio consectetur, in veniam quo eum reiciendis dicta quos suscipit voluptatem?</h4>
+                              </div>
+                              <div class="name">
+                                        <h5>Imade N, Ade G,</h5>
+                                        <div class="citation_score">
+                                                  <div class="score">
+                                                            <h3>6</h3>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <button id="show-more" onclick="show()" type="button" value="submit"><a id ="link" href="#">SHOW MORE PUBLICATIONS</a></button>
+
+          </section>
+          <section id="lab_members">
+                    <h2>
+                              Lab Members
+                    </h2>
+                    <div id="membership">
+                              <div class="member">
+                                        <img src="/asset/images/girl.jpg" alt="">
+                                        <h4>Imade Nsa, Ph.D.</h4>
+                                        <h5>Senior Lecturer</h5>
+                                        <h5><a href="#">Department of Microbiology University of Lagos</a>,<a href="#">SEA PHAGES</a></h5>
+                              </div>
+                              <div class="member">
+                                        <img src="/asset/images/girl.jpg" alt="">
+                                        <h4>Imade Nsa, Ph.D.</h4>
+                                        <h5>P.hD. Student</h5>
+                                        <h5><a href="#">Department of Microbiology, University of Lagos</a>,<a href="#">SEA PHAGES</a></h5>
+                              </div>
+                              <div class="member">
+                                        <img src="/asset/images/girl.jpg" alt="">
+                                        <h4>Imade Nsa, Ph.D.</h4>
+                                        <h5>Senior Lecturer</h5>
+                                        <h5><a href="#">Department of Microbiology, University of Lagos</a>,<a href="#">SEA PHAGES</a></h5>
+                              </div>
+                              <div class="member">
+                                        <img src="/asset/images/girl.jpg" alt="">
+                                        <h4>Imade Nsa, Ph.D.</h4>
+                                        <h5>Senior Lecturer</h5>
+                                        <h5><a href="#">Department of Microbiology, University of Lagos</a>,<a href="#">SEA PHAGES</a></h5>
+                              </div>
+                              <div class="member">
+                                        <img src="/asset/images/girl.jpg" alt="">
+                                        <h4>Imade Nsa, Ph.D.</h4>
+                                        <h5>Senior Lecturer</h5>
+                                        <h5><a href="#">Department of Microbiology, University of Lagos</a>,<a href="#">SEA PHAGES</a></h5>
+                              </div>
+                              <div class="member">
+                                        <img src="/asset/images/girl.jpg" alt="">
+                                        <h4>Imade Nsa, Ph.D.</h4>
+                                        <h5>Undergraduate Research Assistant</h5>
+                                        <h5><a href="#">Department of Microbiology, University of Lagos</a>,<a href="#">SEA PHAGES</a></h5>
+                              </div>
+                    </div>
+          </section>
+          <section id="project">
+                    <h2>Research Projects</h2>
+                    <div id="proj">
+                              <div class="project">
+                                        <div class="project_name">
+                                                  <h5>NSA</h5>
+                                        </div>
+                                        <div class="project_topic">
+                                                  <h3>CMV Interfaces with The Trail Cytokine Sytem</h3>
+                                        </div>
+                                        <div class="project_main">
+                                                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ratione illo non distinctio optio nisi voluptatibus aut. Culpa, temporibus eaque.</p>
+                                        </div>
+                                        <div class="project_read">
+                                                  <div></div>
+                                                  <a href="#">READ MORE</a>
+                                        </div>
+
+
+                              </div>
+                              <div class="project">
+                                        <div class="project_name">
+                                                  <h5>NSA</h5>
+                                        </div>
+                                        <div class="project_topic">
+                                                  <h3>CMV Interfaces with The Trail Cytokine Sytem</h3>
+                                        </div>
+                                        <div class="project_main">
+                                                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ratione illo non distinctio optio nisi voluptatibus aut. Culpa, temporibus eaque.</p>
+                                        </div>
+                                        <div class="project_read">
+                                                  <div></div>
+                                                  <a href="#">READ MORE</a>
+                                        </div>
+
+
+                              </div>
+                              <div class="project">
+                                        <div class="project_name">
+                                                  <h5>NSA</h5>
+                                        </div>
+                                        <div class="project_topic">
+                                                  <h3>CMV Interfaces with The Trail Cytokine Sytem</h3>
+                                        </div>
+                                        <div class="project_main">
+                                                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ratione illo non distinctio optio nisi voluptatibus aut. Culpa, temporibus eaque.</p>
+                                        </div>
+                                        <div class="project_read">
+                                                  <div></div>
+                                                  <a href="#">READ MORE</a>
+                                        </div>
+
+
+                              </div>
+                              <div class="project">
+                                        <div class="project_name">
+                                                  <h5>NSA</h5>
+                                        </div>
+                                        <div class="project_topic">
+                                                  <h3>CMV Interfaces with The Trail Cytokine Sytem</h3>
+                                        </div>
+                                        <div class="project_main">
+                                                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ratione illo non distinctio optio nisi voluptatibus aut. Culpa, temporibus eaque.</p>
+                                        </div>
+                                        <div class="project_read">
+                                                  <div></div>
+                                                  <a href="#">READ MORE</a>
+                                        </div>
+
+
+                              </div>
+                              
+                    </div>
+          </section>
+          <section id="awards">
+                    <h2>Awards & Honors</h2>
+                    <h4>Diana Russet award  2013</h4>
+                    <h4>Diana Russet award  2013</h4>
+                    <h4>Diana Russet award  2013</h4>
+                    <h4>Diana Russet award  2013</h4>
+
+          </section>
+          <section id="contact">
+                    <div id="contact_me">
+                              <h2>Contact Me</h2>
+
+                              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque voluptates eveniet recusandae accusamus!</h5>
+                              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque voluptates eveniet recusandae accusamus!</h5>
+                              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque voluptates eveniet recusandae accusamus!</h5>
+                    </div>
+                    <div>
+                              <form id="contactForm" action="/">
+                                        <input type="text" id="name" name="name" placeholder="Name*" required>
+                                        <input type="email" id="email" name="email" placeholder="Email*" required>
+                                        <input id="subject" type="text" name="subject" placeholder="Subject*" required>
+                                        <textarea id="message" name="message" id="message" cols="30" rows="3" placeholder="Message*" required></textarea>
+                                        <p>Field marked with * are required</p>
+                                        <button type="submit" value="submit">Submit</button>
+                              </form>
+                    </div>
+          </section>
+          <footer>
+                    <div id="footer_line">
+                              <ul class="term">
+                                        <li>Contact</li>
+                                        <li>Careers</li>
+                                        <li>Terms & Condition</li>
+                                        <li>Privacy Policy</li>
+                              </ul>
+                              <h3>NSA LAB</h3>
+                              <h4>University of Lagos</h4>
+                              <ul class="social">
+                                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                                        <li><i class="fa-brands fa-researchgate"></i></li>
+                                        <li><i class="fa-brands fa-x-twitter"></i></li>
+                                        <li><i class="fa-regular fa-envelope"></i></li>
+                                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                              </ul>
+                    </div>
+                    <div id="footer_final">
+                              <a href="insa@unilag.edu.ng">insa@unilag.edu.ng</a>
+                              <h5>N0 124 Diploma building</h5>
+                              <h5>University of Lagos, Akoka</h5>
+                              <h5 id="rights">@ 2023 NSA LAB University of Lagos. All rights reserved.</h5>
+                    </div>
+          </footer>
+
+          <script src="/script.js"></script> 
+         
+</body>
+</html>
