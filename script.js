@@ -13,15 +13,26 @@ function toggleDown() {
 }
 
 const menuBar = document.getElementById('nav')
+const menu_bar = document.querySelectorAll('.menu_bar')
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
         menuBar.style.boxShadow = "0px 0px 5px 0px #000000";
         menuBar.style.backgroundColor = " #262638ed";
+        menuBar.style.color = "#ffffff";
+        menu_bar.forEach(function(menu_bar) {
+            menu_bar.style.color = "#ffffff";
+        })
+
     
     } else {
         menuBar.style.boxShadow = "none";
-        menuBar.style.backgroundColor = "#262638";
+        menuBar.style.backgroundColor = "#ffffff";
+        menuBar.style.color = "#262638";
+        menu_bar.forEach(function(menu_bar) {
+            menu_bar.style.color = "#262638";
+        })
+
     }
 });
 
