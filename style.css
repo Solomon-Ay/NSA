@@ -254,7 +254,7 @@ nav #bar {
           border-radius: 50%;
           height:200px;
           width: 200px;
-          border: 2px solid #d6e2ef;   
+          /* border: 2px solid #d6e2ef;    */
           justify-self: center; 
           margin-bottom: 40px; 
           object-fit:cover;    
