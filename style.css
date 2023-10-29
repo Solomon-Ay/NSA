@@ -166,8 +166,8 @@ nav #bar {
 
 
 .home {
-          background:linear-gradient(0deg, #06060690, 
-          #0b0a0a76), url(asset/images/pxfuel\ \(1\).jpg);
+          background:linear-gradient(0deg, #0325813a, 
+          #0325813a), url(asset/images/background.png);
           min-height: 95vh;
           background-size: cover;
           background-position: 100%;
@@ -198,6 +198,10 @@ nav #bar {
           line-height: 1.5;
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           
+}
+
+#nsa_nam h2 span {
+  color: #ff5500;
 }
 
 #nsa_nam ul {
