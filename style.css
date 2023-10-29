@@ -175,6 +175,7 @@ nav #bar {
           grid-template-columns: 70%;
           justify-content: center;
           align-items: center;
+          background-repeat: no-repeat;
           
 }
 
