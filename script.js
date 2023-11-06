@@ -94,7 +94,7 @@ contactForm.addEventListener('submit', function(event) {
     const email = document.getElementById('email').value;
     const subject = document.getElementById('subject').value;
     const message = document.getElementById('message').value;
-    const recipientEmail = 'olorundaresolomonay@gmail.com';
+    const recipientEmail = 'insa@unilag.edu.ng';
 
     const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
 
