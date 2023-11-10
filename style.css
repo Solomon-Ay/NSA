@@ -348,13 +348,33 @@ nav #bar {
   }
 }
 
+#publication {
+  background-color:#d4dbe082;
+  display: grid;
+  grid-template-columns: 100%
+}
+
+#publication #pub-head {
+  display: grid;
+  grid-template-columns: 70%;
+  justify-content: center;
+  padding: 50px 0px 20px 0px;
+  color: #080531;
+  background-color: initial;
+}
+
+#pub-head h2 {
+  font-size: 30px;
+  color:  #03031e;
+  font-size: 25px;
+}
+
 #public {
-          background-color: #d4dbe082;
           display: grid;
           grid-template-columns: 34% 34%;
           justify-content: center;
           min-height: 150vh;
-          padding: 50px 0px;
+          padding: 0px 0px;
           gap: 15px
 }
 
@@ -372,6 +392,8 @@ nav #bar {
           }
 
 }
+
+
 
 .box {
           background-color: white;
@@ -457,6 +479,7 @@ nav #bar {
   position: relative;
   left: 50%;
   justify-self: center;
+  outline: none;
 }
 
 #public button.show {
@@ -583,6 +606,8 @@ nav #bar {
 .project {
           background-color: white;
           padding: 40px;
+          outline: none;
+          border: none;
           box-shadow: 3px 3px 3px 1px #0d0d0d;
 }
 
@@ -679,7 +704,7 @@ nav #bar {
 
 #contact form input {
           outline: none;
-          border: 1.5px solid #080531;
+          /* border: 1.5px solid #080531; */
           margin: 10px 0px;
           padding: 7px;
           width: 49.5%;
