@@ -283,6 +283,7 @@ nav #bar {
           color:#32324a;
           font-style: italic;
           font-size: 13px;
+          display: block;
 }
 
 #over_info2 {
