@@ -106,7 +106,7 @@ contactForm.addEventListener('submit', function(event) {
 const scrollToTopButton = document.querySelector('.scroll_up');
 
 window.addEventListener('scroll', () => {
-          if (window.scrollY > 500) {
+          if (window.scrollY > 200) {
                     scrollToTopButton.style.display = 'block';
           } else {
                     scrollToTopButton.style.display = 'none';
